@@ -1,5 +1,3 @@
-
-
 import requests
 import json
 import re
@@ -40,8 +38,8 @@ class my_sql(): #定义一个mysql类，实现连接和插入数据操作
         self.score = score
         self.connect = pymysql.connect(
             host='localhost',
-            user='root',
-            password='youngtao104228',
+            user='yourusername', # 你的用户名
+            password='yourpassword', # 你的密码
             port=3306,
             db = 'spider_maoyan'
             )
